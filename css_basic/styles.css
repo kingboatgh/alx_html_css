@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    background-color: rgb(245, 246, 251);
 }
 
 
@@ -19,3 +20,19 @@ aside {
     flex: 1;
     overflow-y: auto
 }
+
+
+
+figure, figcaption {
+    display: block; /* Ensure the figure is block-level */
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content; /* Adjust the width as needed or use a specific width */
+}
+
+
+footer {
+    text-align: center;
+}
+
+
