@@ -1,0 +1,145 @@
+/*colors*/
+:root {
+    --orange: #FF6565;
+    --white: #FFFFFF;
+
+
+    /* --------------General--------------- */
+
+/* button - border-radius */
+--btn-br: 22px;
+
+
+}
+
+/* Reset CSS */
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+    height: 100%;
+    font-family: source sans pro;
+}
+
+
+
+/* Nav styles */
+nav {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20%; 
+}
+
+nav .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.navLinkContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 25%;
+    margin-left: 40%;
+    
+}
+
+nav .logo img {
+    width: 161px;
+    height: 32px;
+ } 
+ 
+
+.navLink {
+    list-style: none;
+}
+
+
+.navLink a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+.navLink a:hover {
+    color: var(--orange);
+    cursor: pointer;
+}
+
+/* hero section */
+body .hero {
+    background: url(./assets/headphones_hero_1.jpg) no-repeat fixed center ;
+    background-size: cover;
+    
+}
+
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    flex-direction: column;
+    margin: auto;
+    color: var(--white);
+
+}
+
+main article {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 27em;
+
+}
+
+main article h2 {
+    font-size: 32px;
+margin-bottom: 25px;
+}
+
+main article h3 {
+    font-size: 16px;
+margin-bottom: 25px;
+} 
+
+.button-top {
+    padding-bottom: 65px;
+}
+
+main .button-top button{
+    border: none;
+    background: var(--orange);
+    color: var(--white);
+    border-radius: var(--btn-br);
+    font-size: 14px;
+    font-family: Source Sans pro;
+    padding: 10px 20px 10px 20px;
+   
+}
+
+main article p {
+    font-size: 16px;
+    width: 637px;
+    height: 104px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+.article-content {
+    padding-bottom: 4em;
+}
+
+/* -------------------------------------------- */
+
